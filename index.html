@@ -306,21 +306,42 @@
                 </button>
               </form>
             </li>
+            </ul>
          </div>
 </footer>
     <div  class="backdrop is-hidden"data-modal>
         <div class="modal">
             <button type="button" class="modal-button-clouse" data-modal-close>x</button>
+            <div class="container-modal">
+            <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
+            <form>
+                <label>
+                    <p class="text-modal-form">Imię</p>
+                    <input class="modal-input" type="text" name="username" placeholder="Jacob Mercer" />
+                </label>
+                <label>
+                    <p class="text-modal-form">Telefon</p>
+                    <input class="modal-input" type="text" name="username" placeholder="Jacob Mercer" />
+                </label>
+                <label>
+                    <p class="text-modal-form">Email</p>
+                    <input class="modal-input" type="text" name="username" placeholder="Jacob Mercer" />
+                </label>
+                <label>
+                    <p class="text-modal-form">Komentarz</p>
+                    <textarea class="modal-input-textarea" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+                </label>
+                <label>
+                  <input  class="modal-checkbox" type="checkbox" name="agree" value="acceptance of the regulations" />
+                    <p class="text-modal-checkbox">Oświadczam iż akceptuję <a class="modal-label-link"href="regulamin">Regulamin</a> i <a class="modal-label-link" href="polityka prywatności">Politykę Prywatności</a>.</p>
+                </label>
+                <button class="modal-button-submit" type="submit">Wyślij</button>
+            </form>
+            </div>
         </div>
     </div>
     <script src="./modal/modal.js">
-        <form>
-  <label>
-    Username
-    <input type="text" name="username" placeholder="Jacob Mercer" />
-  </label>
-  <button type="submit">Submit</button>
-</form>
+  
     </script>
 </body>
 </html>
