@@ -716,6 +716,7 @@ body{
   background-image: url(../images/Vector-check.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 12px 12px;
   background-color:#2196f3;
   background-origin: border-box;
   border-color:#2196f3;
