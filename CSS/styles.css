@@ -713,7 +713,7 @@ body{
     clip: rect(0 0 0 0);
 }
 .modal-checkbox:checked + .icon-chek {
-  background-image: url(./images/Vector-check.svg);
+  background-image: url(../images/Vector-check.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-color:#2196f3;
