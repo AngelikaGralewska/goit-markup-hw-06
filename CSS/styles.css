@@ -304,6 +304,7 @@ body{
     color: #757575;
     margin-top: 10px;
     margin-bottom: 0px;
+
 }
 .text-modal-checkbox{
     font-family: 'Roboto';
@@ -636,9 +637,8 @@ body{
     border-radius: 4px;
     margin-top: 4px;
     padding-left: 42px;
+    outline: none;
 }
-
-
 .modal-input-textarea{
     width: 448px;
     height: 120px;
@@ -653,6 +653,7 @@ body{
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+    outline: none;
 }
 .modal-checkbox{
     width: 16px;
@@ -674,4 +675,13 @@ body{
 .modal-label{
     position:relative;
     display: flex;
+}
+.modal-label:hover .modal-input{
+    border-color: #2196f3;
+}
+.modal-label:hover .modal-input-icon{
+    fill:#2196f3
+}
+.modal-label:hover .modal-input-textarea{
+    border-color:#2196f3;
 }
