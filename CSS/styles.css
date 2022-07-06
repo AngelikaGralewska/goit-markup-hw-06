@@ -662,6 +662,7 @@ body{
     outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
+
 .modal-label-link{
     color: #2196f3;
 }
@@ -675,16 +676,18 @@ body{
     position:relative;
     display: flex;
 }
-.modal-label:hover .modal-input{
+.modal-label:hover .modal-input,
+.modal-label:focus .modal-input{
     border-color: #2196f3;
 }
-.modal-label:hover .modal-input-icon{
+.modal-label:hover .modal-input-icon,
+.modal-label:focus .modal-input-icon{
     fill:#2196f3
 }
-.modal-label:hover .modal-input-textarea{
+.modal-label:hover .modal-input-textarea,
+.modal-label:focus .modal-input-textarea{
     border-color:#2196f3;
 }
-
 .icon-chek {
     display: inline-block;
     width: 16px;
