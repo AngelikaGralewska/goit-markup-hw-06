@@ -677,11 +677,11 @@ body{
     display: flex;
 }
 .modal-label:hover .modal-input,
-.modal-label::focus-within .modal-input{
+.modal-label:focus-within .modal-input{
     border-color: #2196f3;
 }
 .modal-label:hover .modal-input-icon,
-.modal-label::focus-within .modal-input-icon{
+.modal-label:focus-within .modal-input-icon{
     fill:#2196f3
 }
 .modal-label:hover .modal-input-textarea,
